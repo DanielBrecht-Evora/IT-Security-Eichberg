@@ -163,6 +163,7 @@ hashcat -a6 -1 '$€!' star.hashcat jahre_staedte.txt '?1?1?1?1?1?1' \
 ## 7. Regel-Syntax (kurz)
 
 - .rules Datei
+- rules/best64.rule
 
 ```
 :    nichts tun
