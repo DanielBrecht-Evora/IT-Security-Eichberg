@@ -252,3 +252,11 @@ watch -n5 nvidia-smi            # GPU-Last beobachten (bei GPU-Cracking)
 5. Angriff wählen (Wortliste, Maske, Hybrid) und ggf. Wortliste bauen
 6. bei zu neuen Formaten (kdbx v4, spezielle KDFs) eigenes Python-Skript
 7. Ergebnis mit `--show` prüfen und Datei entschlüsseln
+
+---
+
+## 13. Hashcat und JohnTheRipper installieren
+```bash
+sudo apt update && sudo apt install hashcat
+sudo apt update && sudo apt install john
+```
